@@ -1,0 +1,43 @@
+.app {
+  min-width: 400px;
+}
+
+.form-control {
+  width: 250px !important;
+}
+
+.table-hover tr:hover {
+  cursor: pointer;
+}
+
+table {
+  table-layout: fixed;
+}
+
+table th:nth-child(1) {
+  width: 25%;
+}
+
+table th:nth-child(2) {
+  width: 30%;
+}
+
+table th:nth-child(3) {
+  width: 100px;
+}
+
+table th:nth-child(4) {
+  width: 25%;
+}
+
+table td {
+  height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-item {
+  width: 4rem;
+  text-align: center;
+}
